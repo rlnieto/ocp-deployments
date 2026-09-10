@@ -10,7 +10,7 @@ The chart values file includes:
 * *Namespace:* *minio* by default
 * *User and password:* *adminuser/adminuser* by default
 * *Persistence:* *1Gb* by default
-* *Initial buckets:* 1 bucket is created (*minio*). Initial buckets are created by the *bucket-job.yaml* template. The bucket names are defined in the chart values file (1 line/bucket). If more bucketd are added they must be added to the template
+* *Initial buckets:* 1 bucket is created (named *tempo*). Initial buckets are created by the *bucket-job.yaml* template. The bucket names are defined in the chart values file (1 line/bucket). If more bucketd are added they must be added to the template
 
 A nodeport service is created to allow access to the web console from outside the cluster
 
