@@ -11,6 +11,7 @@ metadata:
 spec:
   destination:
     server: 'https://kubernetes.default.svc'
+    namespace: openshift-operators
   project: default
   syncPolicy:
     automated:
