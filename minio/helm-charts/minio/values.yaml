@@ -30,5 +30,5 @@ resources:
     memory: 512Mi
 
 # Initial buckets, 1 line/bucket
-bucket: minio
+bucket: tempo
 
