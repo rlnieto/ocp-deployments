@@ -18,7 +18,7 @@ spec:
             - /bin/sh
             - -ec
             - |
-              until mc alias set local minio.minio.svc.cluster.local:9000 "$MINIO_ROOT_USER" "$MINIO_ROOT_PASSWORD"; do
+              until mc alias set local {{ include "minio.endpoint" . }} "$MINIO_ROOT_USER" "$MINIO_ROOT_PASSWORD"; do
                 echo "waiting for minio..."
                 sleep 5
               done
