@@ -1,3 +1,5 @@
+:linkattrs:
+
 image:https://img.shields.io/badge/GitOps-Argo%20CD-blue?logo=argo[Argo CD]
 
 Deploys a https://min.io[MinIO, window="_blank"] instance on an ocp cluster
